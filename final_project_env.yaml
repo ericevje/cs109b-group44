@@ -1,0 +1,45 @@
+name: final_project_env
+
+channels:
+    - conda-forge
+
+dependencies:
+    - certifi
+    - depfinder
+    - gdown
+    - imageio
+    - ipython
+    - jupyterlab
+    - mamba
+    - matplotlib
+    - mkl-service
+    - numpy
+    - opencv
+    - pandas
+    - pillow
+    - pip
+    - pygam
+    - requests
+    - scikit-learn
+    - scipy
+    - seaborn
+    - statsmodels
+    - sympy
+    - urllib3
+    - pytorch::pytorch
+    - pytorch::torchvision
+    - psutil 
+    - requests
+
+    - pip:
+        - csaps
+        - gap_stat
+        - gridworld
+        - helpers
+        - iacs-cli
+        - tensorflow_addons
+        - tensorflow_datasets
+        - tf_keras_vis
+        - tensorflow
+        - pymc3
+        - theano
