@@ -17,9 +17,7 @@ from gym_env import GymEnv
 class FusionEnvWrapper(GymEnv):
     
     def set_target(self, target_file):
-        """Setup search and connect to the Fusion Gym"""
-        print(f"host={self.client.host}")
-        
+        """Setup search and connect to the Fusion Gym"""       
         # Set the target
         r = self.client.set_target(target_file)
         self.check_response("set_target", r)
@@ -50,6 +48,8 @@ class FusionEnvWrapper(GymEnv):
 
     def extrude(self, start_face, end_face, operation):
         """Extrude wrapper around the gym client"""
+        print(f"args: {start_face}, {end_face}, {operation}")
+        
         is_invalid = False
         return_graph = None
         return_iou = None

@@ -4,7 +4,7 @@ from __future__ import print_function
 
 from dataclasses import dataclass
 from enum import IntEnum
-from uuid import uuid4
+import uuid 
 import sys
 import os
 
@@ -33,46 +33,10 @@ if CLIENT_DIR not in sys.path:
     sys.path.append(CLIENT_DIR)
 
 from gym_env import GymEnv
+from fusion_gym import fusion_env_wrapper
 
+from model.ExtrudeAction import ExtrudeAction
 
-class Operation(IntEnum):
-    JoinFeatureOperation = 1
-    CutFeatureOperation = 2
-    IntersectFeatureOperation = 3
-    NewBodyFeatureOperation = 4
-
-@dataclass(frozen=True)
-class ExtrudeAction:
-    # UUID of start face in the target
-    start_face: uuid4
-    # UUID of end face in the target
-    end_face: uuid4
-    # the type of operation (defined above)
-    operation: Operation
-
-    def encode(self) -> np.array:
-        """ Encodes an action to tf-agent compatible format"""
-        start_lower_64 = self.start_face.int & ((2 ** 64) - 1)
-        start_upper_64 = self.start_face.int >> 64 & ((2 ** 64) - 1)
-        end_lower_64 = self.end_face.int & ((2 ** 64) - 1)
-        end_upper_64 = self.end_face.int >> 64 & ((2 ** 64) - 1)
-
-        return np.array([
-            start_upper_64,
-            start_lower_64,
-            end_upper_64,
-            end_lower_64,
-            int(self.operation)
-        ], dtype=np.uint64)
-
-    def decode(encoded: np.array) -> ExtrudeAction:
-        start_face = (int(encoded[0]) << 64) | encoded[1]
-        end_face   = (int(encoded[2]) << 64) | encoded[3]
-        return ExtrudeAction(
-            uuid.UUID(int=start_face),
-            uuid.UUID(int=end_face),
-            Operation(encoded[4])
-        )
     
 @dataclass(frozen=True)
 class State:
@@ -81,8 +45,9 @@ class State:
 
 
 class FusionGymEnvironment(py_environment.PyEnvironment):
+    """ FusionGymEnvironment implements the PyEnvironment interface from tensorflow """
         
-    def __init__(self, gym_env: FusionEnvWrapper, max_steps):
+    def __init__(self, gym_env: fusion_env_wrapper.FusionEnvWrapper, max_steps):
         self._action_spec = array_spec.BoundedArraySpec(
             shape=(5,), dtype=np.int64, name='action')
         self._observation_spec = array_spec.BoundedArraySpec(
@@ -111,11 +76,11 @@ class FusionGymEnvironment(py_environment.PyEnvironment):
         # Apply action
         try:
             decoded_action = ExtrudeAction.decode(action)
-            print(f"action: {decoded_action}")
+            print(decoded_action)
             graph, iou = self._env.extrude(
-                decoded_action.start_face,
-                decoded_action.end_face,
-                decoded_action.operation
+                str(decoded_action.start_face),
+                str(decoded_action.end_face),
+                decoded_action.operation.to_string()
             )
             print(graph)
         except ValueError:
