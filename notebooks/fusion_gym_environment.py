@@ -78,8 +78,8 @@ class FusionGymEnvironment(py_environment.PyEnvironment):
             decoded_action = ExtrudeAction.decode(action)
             print(decoded_action)
             graph, iou = self._env.extrude(
-                str(decoded_action.start_face),
-                str(decoded_action.end_face),
+                decoded_action.start_face,
+                decoded_action.end_face,
                 decoded_action.operation.to_string()
             )
             print(graph)
