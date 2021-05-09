@@ -15,6 +15,8 @@ from search_random import SearchRandom
 from search_beam import SearchBeam
 from search_best import SearchBest
 
+import pandas as pd
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input", type=str, required=True, help="File or folder target smt files to reconstruct")
@@ -25,9 +27,10 @@ parser.add_argument("--launch_gym", dest="launch_gym", default=False, action="st
                     help="Launch the Fusion 360 Gym automatically, requires the gym to be set to run on startup [default: False]")
 parser.add_argument("--agent", type=str, default="rand", help="Agent to use, can be rand, mpn, or mlp [default: rand]")
 parser.add_argument("--search", type=str, default="rand", help="Search to use, can be rand, beam or best [default: rand]")
-parser.add_argument("--budget", type=int, default=100, help="The number of steps to search [default: 100]")
+parser.add_argument("--budget", type=int, default=50, help="The number of steps to search [default: 100]")
 parser.add_argument("--augment", dest="augment", default=False, action="store_true", help="Use an agent trained on augmented data [default: False]")
 parser.add_argument("--rerun", dest='rerun', default=True)
+parser.add_argument("--bounded", dest='bounded', default=False)
 args = parser.parse_args()
 
 
@@ -78,7 +81,7 @@ def get_files():
 def get_output_dir():
     """Get the output directory to save the logs"""
     if args.output is not None:
-        output_dir = Path(args.output)
+        output_dir = Path(__file__).resolve().parent / args.output
     else:
         output_dir = Path(__file__).resolve().parent / "log"
     if not output_dir.exists():
@@ -94,7 +97,6 @@ def get_search(env, output_dir):
         return SearchBeam(env, output_dir)
     elif args.search == "best":
         return SearchBest(env, output_dir)
-
 
 def get_agent():
     """Get the agent based on user input"""
@@ -114,7 +116,6 @@ def load_results(output_dir):
             return json.load(f)
     else:
         return {}
-
 
 def save_results(output_dir, results):
     """Save the results file"""
@@ -168,6 +169,7 @@ def main():
     files_processed = 0
     crash_counts = {}
     while len(files_to_process) > 0:
+        env.client.clear()
         # Take the file at the end
         file = files_to_process.pop()
         halt_timer = setup_timer(env, file)
@@ -193,12 +195,12 @@ def main():
                 min_bound = bounding_box['min_point']
                 max_point = (round(max_bound['x'], 2), round(max_bound['y'], 2), round(max_bound['z'], 2))
                 min_point = (round(min_bound['x'], 2), round(min_bound['y'], 2), round(min_bound['z'], 2))
-                print(max_point)
-                print(min_point)
 
-                # best_score_over_time = search.search(agent, args.budget, screenshot=args.screenshot)
-                print(args.screenshot)
-                best_score_over_time = search.search_bounding_box(agent, args.budget, max_point, min_point, screenshot=args.screenshot)
+                if args.bounded:
+                    best_score_over_time = search.search_bounding_box(agent, args.budget, max_point, min_point, screenshot=args.screenshot)
+                else:
+                    best_score_over_time = search.search(agent, args.budget, screenshot=args.screenshot)
+
                 time_taken = time.time() - start_time
                 print(f"---> Score: {best_score_over_time[-1]:.3f} in {len(best_score_over_time)}/{args.budget} steps ({time_taken:.2f} sec)")
                 files_processed += 1
@@ -245,6 +247,11 @@ def main():
                 result["exception"] = type(ex).__name__
                 result["exception_args"] = str(ex.args)
                 result["trace"] = traceback.format_exc()
+            except KeyboardInterrupt:
+                print("killing gym")
+                env.kill_gym()
+                exit()
+
             files_processed += 1
         halt_timer.cancel()
         add_result(results, file, result, output_dir)

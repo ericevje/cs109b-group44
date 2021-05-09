@@ -1,0 +1,563 @@
+[
+    {
+        "used_budget": 1,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "4",
+                "end_face": "2",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539215.447107
+    },
+    {
+        "used_budget": 2,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539216.395435
+    },
+    {
+        "used_budget": 3,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539217.337418
+    },
+    {
+        "used_budget": 4,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "5",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539218.306968
+    },
+    {
+        "used_budget": 5,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "0",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539219.239767
+    },
+    {
+        "used_budget": 6,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "5",
+                "end_face": "0",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539220.172989
+    },
+    {
+        "used_budget": 7,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "5",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539222.1719072
+    },
+    {
+        "used_budget": 8,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "2",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539224.04604
+    },
+    {
+        "used_budget": 9,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "5",
+                "end_face": "2",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539224.975574
+    },
+    {
+        "used_budget": 10,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "5",
+                "end_face": "5",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539226.9409652
+    },
+    {
+        "used_budget": 11,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "4",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539228.876894
+    },
+    {
+        "used_budget": 12,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "4",
+                "end_face": "5",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539229.809878
+    },
+    {
+        "used_budget": 13,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "4",
+                "end_face": "0",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539230.760824
+    },
+    {
+        "used_budget": 14,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "2",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539231.6946938
+    },
+    {
+        "used_budget": 15,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "0",
+                "operation": "IntersectFeatureOperation"
+            }
+        ],
+        "time": 1620539232.6111
+    },
+    {
+        "used_budget": 16,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "0",
+                "operation": "JoinFeatureOperation"
+            }
+        ],
+        "time": 1620539233.579324
+    },
+    {
+        "used_budget": 17,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "0",
+                "operation": "NewBodyFeatureOperation"
+            }
+        ],
+        "time": 1620539234.512876
+    },
+    {
+        "used_budget": 18,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "0",
+                "operation": "NewComponentFeatureOperation"
+            }
+        ],
+        "time": 1620539235.399227
+    },
+    {
+        "used_budget": 19,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "2",
+                "operation": "IntersectFeatureOperation"
+            }
+        ],
+        "time": 1620539236.345661
+    },
+    {
+        "used_budget": 20,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "2",
+                "operation": "JoinFeatureOperation"
+            }
+        ],
+        "time": 1620539237.26319
+    },
+    {
+        "used_budget": 21,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "2",
+                "operation": "NewBodyFeatureOperation"
+            }
+        ],
+        "time": 1620539238.215622
+    },
+    {
+        "used_budget": 22,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "2",
+                "operation": "NewComponentFeatureOperation"
+            }
+        ],
+        "time": 1620539239.150906
+    },
+    {
+        "used_budget": 23,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "4",
+                "operation": "IntersectFeatureOperation"
+            }
+        ],
+        "time": 1620539240.099181
+    },
+    {
+        "used_budget": 24,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "4",
+                "operation": "JoinFeatureOperation"
+            }
+        ],
+        "time": 1620539242.030702
+    },
+    {
+        "used_budget": 25,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "4",
+                "operation": "NewBodyFeatureOperation"
+            }
+        ],
+        "time": 1620539242.9981382
+    },
+    {
+        "used_budget": 26,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "4",
+                "operation": "NewComponentFeatureOperation"
+            }
+        ],
+        "time": 1620539244.852305
+    },
+    {
+        "used_budget": 27,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "5",
+                "operation": "IntersectFeatureOperation"
+            }
+        ],
+        "time": 1620539246.8499892
+    },
+    {
+        "used_budget": 28,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "5",
+                "operation": "JoinFeatureOperation"
+            }
+        ],
+        "time": 1620539247.851381
+    },
+    {
+        "used_budget": 29,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "5",
+                "operation": "NewBodyFeatureOperation"
+            }
+        ],
+        "time": 1620539248.819364
+    },
+    {
+        "used_budget": 30,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "0",
+                "end_face": "5",
+                "operation": "NewComponentFeatureOperation"
+            }
+        ],
+        "time": 1620539249.75406
+    },
+    {
+        "used_budget": 31,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "0",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539250.752316
+    },
+    {
+        "used_budget": 32,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "0",
+                "operation": "IntersectFeatureOperation"
+            }
+        ],
+        "time": 1620539251.736693
+    },
+    {
+        "used_budget": 33,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "0",
+                "operation": "JoinFeatureOperation"
+            }
+        ],
+        "time": 1620539252.7533581
+    },
+    {
+        "used_budget": 34,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "0",
+                "operation": "NewBodyFeatureOperation"
+            }
+        ],
+        "time": 1620539253.804147
+    },
+    {
+        "used_budget": 35,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "0",
+                "operation": "NewComponentFeatureOperation"
+            }
+        ],
+        "time": 1620539254.755432
+    },
+    {
+        "used_budget": 36,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "2",
+                "operation": "IntersectFeatureOperation"
+            }
+        ],
+        "time": 1620539256.621221
+    },
+    {
+        "used_budget": 37,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "2",
+                "operation": "JoinFeatureOperation"
+            }
+        ],
+        "time": 1620539257.637416
+    },
+    {
+        "used_budget": 38,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "2",
+                "operation": "NewBodyFeatureOperation"
+            }
+        ],
+        "time": 1620539258.589963
+    },
+    {
+        "used_budget": 39,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "2",
+                "operation": "NewComponentFeatureOperation"
+            }
+        ],
+        "time": 1620539259.542119
+    },
+    {
+        "used_budget": 40,
+        "budget": 50,
+        "current_iou": 1.0,
+        "max_iou": 1.0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "4",
+                "operation": "IntersectFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0040.png",
+        "time": 1620539261.280952
+    }
+]

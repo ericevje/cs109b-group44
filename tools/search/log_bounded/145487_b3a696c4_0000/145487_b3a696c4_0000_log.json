@@ -1,0 +1,1435 @@
+[
+    {
+        "used_budget": 1,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0001.png",
+        "time": 1620539270.3774972
+    },
+    {
+        "used_budget": 2,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0002.png",
+        "time": 1620539273.60232
+    },
+    {
+        "used_budget": 3,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0003.png",
+        "time": 1620539276.19842
+    },
+    {
+        "used_budget": 4,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539277.3065028
+    },
+    {
+        "used_budget": 5,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0005.png",
+        "time": 1620539281.383317
+    },
+    {
+        "used_budget": 6,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0006.png",
+        "time": 1620539285.487534
+    },
+    {
+        "used_budget": 7,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0007.png",
+        "time": 1620539287.9897542
+    },
+    {
+        "used_budget": 8,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539289.420135
+    },
+    {
+        "used_budget": 9,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0009.png",
+        "time": 1620539292.7057438
+    },
+    {
+        "used_budget": 10,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0010.png",
+        "time": 1620539295.406879
+    },
+    {
+        "used_budget": 11,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0011.png",
+        "time": 1620539299.593548
+    },
+    {
+        "used_budget": 12,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0012.png",
+        "time": 1620539302.279101
+    },
+    {
+        "used_budget": 13,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0013.png",
+        "time": 1620539304.830891
+    },
+    {
+        "used_budget": 14,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539307.2838972
+    },
+    {
+        "used_budget": 15,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539308.489692
+    },
+    {
+        "used_budget": 16,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0016.png",
+        "time": 1620539311.199627
+    },
+    {
+        "used_budget": 17,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0017.png",
+        "time": 1620539314.002512
+    },
+    {
+        "used_budget": 18,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0018.png",
+        "time": 1620539319.4848902
+    },
+    {
+        "used_budget": 19,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0019.png",
+        "time": 1620539322.334612
+    },
+    {
+        "used_budget": 20,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0020.png",
+        "time": 1620539325.219362
+    },
+    {
+        "used_budget": 21,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0021.png",
+        "time": 1620539327.91969
+    },
+    {
+        "used_budget": 22,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0022.png",
+        "time": 1620539333.472003
+    },
+    {
+        "used_budget": 23,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0023.png",
+        "time": 1620539336.138763
+    },
+    {
+        "used_budget": 24,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539337.695787
+    },
+    {
+        "used_budget": 25,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539338.941483
+    },
+    {
+        "used_budget": 26,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539340.2117271
+    },
+    {
+        "used_budget": 27,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0027.png",
+        "time": 1620539344.062258
+    },
+    {
+        "used_budget": 28,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0028.png",
+        "time": 1620539347.54531
+    },
+    {
+        "used_budget": 29,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0029.png",
+        "time": 1620539350.5274081
+    },
+    {
+        "used_budget": 30,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0030.png",
+        "time": 1620539353.4307148
+    },
+    {
+        "used_budget": 31,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0031.png",
+        "time": 1620539356.413755
+    },
+    {
+        "used_budget": 32,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0032.png",
+        "time": 1620539359.399122
+    },
+    {
+        "used_budget": 33,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0033.png",
+        "time": 1620539362.23168
+    },
+    {
+        "used_budget": 34,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0034.png",
+        "time": 1620539365.1264682
+    },
+    {
+        "used_budget": 35,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0035.png",
+        "time": 1620539369.5925918
+    },
+    {
+        "used_budget": 36,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0036.png",
+        "time": 1620539372.6285849
+    },
+    {
+        "used_budget": 37,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0037.png",
+        "time": 1620539375.5301702
+    },
+    {
+        "used_budget": 38,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0038.png",
+        "time": 1620539378.468076
+    },
+    {
+        "used_budget": 39,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0039.png",
+        "time": 1620539381.366909
+    },
+    {
+        "used_budget": 40,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539383.301624
+    },
+    {
+        "used_budget": 41,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539384.873633
+    },
+    {
+        "used_budget": 42,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539386.5110452
+    },
+    {
+        "used_budget": 43,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539388.1279428
+    },
+    {
+        "used_budget": 44,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0044.png",
+        "time": 1620539391.338731
+    },
+    {
+        "used_budget": 45,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539393.1154351
+    },
+    {
+        "used_budget": 46,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0046.png",
+        "time": 1620539396.312525
+    },
+    {
+        "used_budget": 47,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0047.png",
+        "time": 1620539401.532713
+    },
+    {
+        "used_budget": 48,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0048.png",
+        "time": 1620539404.901109
+    },
+    {
+        "used_budget": 49,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0049.png",
+        "time": 1620539408.25135
+    },
+    {
+        "used_budget": 50,
+        "budget": 50,
+        "current_iou": 0.0,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "28",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "26",
+                "end_face": "28",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0050.png",
+        "time": 1620539411.853427
+    }
+]

@@ -1,6 +1,7 @@
 import time
 import json
 from pathlib import Path
+import numpy as np 
 
 from log import Log
 
@@ -11,7 +12,7 @@ class Search:
         self.env = env
         self.log = Log(env, log_dir)
 
-    def set_target(self, target_file):
+    def set_target(self, target_file, bounded=False):
         """Set the target we are searching for"""
         assert target_file.exists()
         self.target_file = target_file
@@ -47,7 +48,23 @@ class Search:
             the best score obtained from the set of explored programs in the search"""
         assert self.target_graph is not None
 
-    def filter_bad_actions(self, current_graph, actions, action_probabilities, from_bound=False, first_cut=False):
+    def filter_bad_actions_bounded(self, current_graph, actions, action_probabilities):
+        """Filter out some actions we clearly don't want to take"""
+        assert self.target_graph is not None
+        epsilon = 0.00000000001
+        # Adjust the probabilities of bad actions
+        for index, action in enumerate(actions):
+            if action["operation"] == "NewComponentFeatureOperation":
+                action_probabilities[index] = epsilon
+            if action["operation"] != "CutFeatureOperation":
+                action_probabilities[index] = epsilon
+            if action_probabilities[index] < epsilon:
+                action_probabilities[index] = epsilon
+
+        action_probabilities = action_probabilities / sum(action_probabilities)
+        return action_probabilities
+
+    def filter_bad_actions(self, current_graph, actions, action_probabilities):
         """Filter out some actions we clearly don't want to take"""
         assert self.target_graph is not None
         epsilon = 0.00000000001
@@ -67,10 +84,6 @@ class Search:
             elif action["operation"] == "NewComponentFeatureOperation":
                 action_probabilities[index] = epsilon
             # Hack to avoid divide by zero
-            if from_bound and first_cut:
-                if  action["operation"] != "CutFeatureOperation":
-                    print("entered")
-                    action_probabilities[index] = epsilon
             if action_probabilities[index] < epsilon:
                 action_probabilities[index] = epsilon
 

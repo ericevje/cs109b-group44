@@ -376,6 +376,7 @@ class Fusion360GymClient():
     # TARGET RECONSTRUCTION
     # -------------------------------------------------------------------------
 
+
     def set_target(self, file):
         """Set the target that we want to reconstruct with a .step or .smt file
             This call will clear the current design"""

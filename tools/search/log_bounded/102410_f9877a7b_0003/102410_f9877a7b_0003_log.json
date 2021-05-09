@@ -1,0 +1,702 @@
+[
+    {
+        "used_budget": 1,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "6",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538966.907236
+    },
+    {
+        "used_budget": 2,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "4",
+                "end_face": "6",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538967.988112
+    },
+    {
+        "used_budget": 3,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "18",
+                "end_face": "10",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538968.912508
+    },
+    {
+        "used_budget": 4,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "10",
+                "end_face": "18",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538969.860987
+    },
+    {
+        "used_budget": 5,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "15",
+                "end_face": "7",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538970.812481
+    },
+    {
+        "used_budget": 6,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "15",
+                "end_face": "2",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538971.778982
+    },
+    {
+        "used_budget": 7,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "7",
+                "end_face": "10",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538972.733239
+    },
+    {
+        "used_budget": 8,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "10",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538973.6999848
+    },
+    {
+        "used_budget": 9,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "10",
+                "end_face": "10",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538974.650063
+    },
+    {
+        "used_budget": 10,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "18",
+                "end_face": "18",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538975.599513
+    },
+    {
+        "used_budget": 11,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "13",
+                "end_face": "13",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538976.5495129
+    },
+    {
+        "used_budget": 12,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "7",
+                "end_face": "18",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538977.503246
+    },
+    {
+        "used_budget": 13,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "2",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538978.4527528
+    },
+    {
+        "used_budget": 14,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "13",
+                "end_face": "10",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538979.4026399
+    },
+    {
+        "used_budget": 15,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "13",
+                "end_face": "18",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538980.369913
+    },
+    {
+        "used_budget": 16,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "13",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538981.369605
+    },
+    {
+        "used_budget": 17,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "13",
+                "end_face": "15",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538982.384246
+    },
+    {
+        "used_budget": 18,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "7",
+                "end_face": "13",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538983.30686
+    },
+    {
+        "used_budget": 19,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "18",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538984.3078861
+    },
+    {
+        "used_budget": 20,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "7",
+                "end_face": "6",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538985.261416
+    },
+    {
+        "used_budget": 21,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "15",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538986.2237408
+    },
+    {
+        "used_budget": 22,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "10",
+                "end_face": "13",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538987.2407181
+    },
+    {
+        "used_budget": 23,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "7",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538988.19431
+    },
+    {
+        "used_budget": 24,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "7",
+                "end_face": "15",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538989.177562
+    },
+    {
+        "used_budget": 25,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "10",
+                "end_face": "15",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538990.177388
+    },
+    {
+        "used_budget": 26,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "15",
+                "end_face": "13",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538991.177907
+    },
+    {
+        "used_budget": 27,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "18",
+                "end_face": "13",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538992.16125
+    },
+    {
+        "used_budget": 28,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "7",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538993.147567
+    },
+    {
+        "used_budget": 29,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "13",
+                "end_face": "7",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538994.748188
+    },
+    {
+        "used_budget": 30,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "7",
+                "end_face": "7",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538996.281166
+    },
+    {
+        "used_budget": 31,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "13",
+                "end_face": "2",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538997.3306398
+    },
+    {
+        "used_budget": 32,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "13",
+                "end_face": "6",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538998.2678988
+    },
+    {
+        "used_budget": 33,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "18",
+                "end_face": "15",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620538999.302044
+    },
+    {
+        "used_budget": 34,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "6",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539000.333599
+    },
+    {
+        "used_budget": 35,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "13",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539001.351291
+    },
+    {
+        "used_budget": 36,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "15",
+                "end_face": "10",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539002.410062
+    },
+    {
+        "used_budget": 37,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "7",
+                "end_face": "2",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539003.454638
+    },
+    {
+        "used_budget": 38,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "10",
+                "end_face": "2",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539004.470094
+    },
+    {
+        "used_budget": 39,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "4",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539005.5039759
+    },
+    {
+        "used_budget": 40,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "15",
+                "end_face": "15",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539006.5205948
+    },
+    {
+        "used_budget": 41,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "15",
+                "end_face": "18",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539007.5251489
+    },
+    {
+        "used_budget": 42,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "10",
+                "end_face": "7",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539008.574979
+    },
+    {
+        "used_budget": 43,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "10",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539009.591831
+    },
+    {
+        "used_budget": 44,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "15",
+                "end_face": "6",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539010.824787
+    },
+    {
+        "used_budget": 45,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "10",
+                "end_face": "6",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539011.9254909
+    },
+    {
+        "used_budget": 46,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "15",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539012.996012
+    },
+    {
+        "used_budget": 47,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "2",
+                "end_face": "4",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539014.06277
+    },
+    {
+        "used_budget": 48,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "18",
+                "end_face": "7",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539015.129836
+    },
+    {
+        "used_budget": 49,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "18",
+                "end_face": "2",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539016.179648
+    },
+    {
+        "used_budget": 50,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "18",
+                "end_face": "6",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539017.249252
+    }
+]

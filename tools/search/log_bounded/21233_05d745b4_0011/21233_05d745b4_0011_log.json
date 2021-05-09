@@ -1,0 +1,30 @@
+[
+    {
+        "used_budget": 1,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "8",
+                "end_face": "6",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539734.410341
+    },
+    {
+        "used_budget": 2,
+        "budget": 50,
+        "current_iou": null,
+        "max_iou": 0,
+        "prefix": [
+            {
+                "start_face": "6",
+                "end_face": "8",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620539735.426296
+    }
+]

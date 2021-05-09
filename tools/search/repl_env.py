@@ -42,8 +42,9 @@ class ReplEnv(GymEnv):
             "nodes": [],
             "links": []
         }
-
+ 
     def boundary_points(self, min_point, max_point):
+        """Return points needed to make a boundary extrude encompassing model"""
         start_face = []
         end_face = []
         start_face.append(min_point)
@@ -59,36 +60,35 @@ class ReplEnv(GymEnv):
         return start_face, end_face
 
     def get_bounding_graph(self, min_point, max_point):
+        """Wrapper to extrude a bounding rectangle around a solid model"""
         _min_point = min_point
         _max_point = max_point
 
         start_face, end_face = self.boundary_points(_min_point, _max_point)
         distance = _max_point[0] - _min_point[0]
-        # print(start_face, end_face)
 
-        # SETUP
-        # Create the client class to interact with the server
-        # client = Fusion360GymClient(f"http://{HOST_NAME}:{PORT_NUMBER}")
-        # Clear to force close all documents in Fusion
-        # Do this before a new reconstruction
-        # r = self.client.clear()
+        # Create a new sketch vias the server client
         r = self.client.add_sketch("XY")
-        # print("Added new sketch")
         response_json = r.json()
         sketch_name = response_json["data"]["sketch_name"]
-        # print(sketch_name)
+
+        # Add points to new sketch
         for i, point in enumerate(start_face):
             r = self.client.add_point(sketch_name, 
                 {"x": point[0], "y": point[1], "z":point[2]})
             response_json = r.json()
-            # print(response_json['data'])
+
+        # Close profile of points to make a face to extrude
         r = self.client.close_profile(sketch_name)
         response_json = r.json()
         profile_id = (list(response_json['data']['profiles'].keys())[0])
+
+        # Extrude by distance between start and end face
         r = self.client.add_extrude(sketch_name, profile_id, -1 * distance, "NewBodyFeatureOperation")
+
+        # Convert extrusion to graph and return graph format
         r = self.client.graph(file='', dir='', format='PerFace')
         response_json = r.json()
-        # print(response_json['data'].keys())
         return response_json['data']['graph']
 
     def extrude(self, start_face, end_face, operation):

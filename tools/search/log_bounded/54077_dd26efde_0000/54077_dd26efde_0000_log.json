@@ -1,0 +1,350 @@
+[
+    {
+        "used_budget": 1,
+        "budget": 20,
+        "current_iou": 0.05679488647563725,
+        "max_iou": 0.05679488647563725,
+        "prefix": [
+            {
+                "start_face": "60",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0001.png",
+        "time": 1620519152.125579
+    },
+    {
+        "used_budget": 2,
+        "budget": 20,
+        "current_iou": 0.05679488647563725,
+        "max_iou": 0.05679488647563725,
+        "prefix": [
+            {
+                "start_face": "34",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0002.png",
+        "time": 1620519154.269523
+    },
+    {
+        "used_budget": 3,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.05679488647563725,
+        "prefix": [
+            {
+                "start_face": "71",
+                "end_face": "17",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519155.6905909
+    },
+    {
+        "used_budget": 4,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.05679488647563725,
+        "prefix": [
+            {
+                "start_face": "71",
+                "end_face": "60",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519156.964244
+    },
+    {
+        "used_budget": 5,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.05679488647563725,
+        "prefix": [
+            {
+                "start_face": "17",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519158.36547
+    },
+    {
+        "used_budget": 6,
+        "budget": 20,
+        "current_iou": 0.056893078284160514,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "21",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0006.png",
+        "time": 1620519160.321773
+    },
+    {
+        "used_budget": 7,
+        "budget": 20,
+        "current_iou": 0.05679488647563725,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "60",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "60",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0007.png",
+        "time": 1620519162.766434
+    },
+    {
+        "used_budget": 8,
+        "budget": 20,
+        "current_iou": 0.053136706872928645,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "34",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "60",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0008.png",
+        "time": 1620519164.956484
+    },
+    {
+        "used_budget": 9,
+        "budget": 20,
+        "current_iou": 0.05679488647563725,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "47",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0009.png",
+        "time": 1620519167.023582
+    },
+    {
+        "used_budget": 10,
+        "budget": 20,
+        "current_iou": 0.053136706872928645,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "60",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "34",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0010.png",
+        "time": 1620519169.2354748
+    },
+    {
+        "used_budget": 11,
+        "budget": 20,
+        "current_iou": 0.05679488647563725,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "34",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "34",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0011.png",
+        "time": 1620519171.402425
+    },
+    {
+        "used_budget": 12,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "60",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "71",
+                "end_face": "17",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519172.7705102
+    },
+    {
+        "used_budget": 13,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "60",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "71",
+                "end_face": "60",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519173.9531178
+    },
+    {
+        "used_budget": 14,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "60",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "17",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519175.215909
+    },
+    {
+        "used_budget": 15,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "34",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "71",
+                "end_face": "17",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519176.401547
+    },
+    {
+        "used_budget": 16,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "34",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "71",
+                "end_face": "60",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519177.7164228
+    },
+    {
+        "used_budget": 17,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "34",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "17",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519179.1205041
+    },
+    {
+        "used_budget": 18,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "71",
+                "end_face": "34",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519180.2968729
+    },
+    {
+        "used_budget": 19,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "21",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "71",
+                "end_face": "17",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519181.526696
+    },
+    {
+        "used_budget": 20,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.056893078284160514,
+        "prefix": [
+            {
+                "start_face": "21",
+                "end_face": "71",
+                "operation": "CutFeatureOperation"
+            },
+            {
+                "start_face": "71",
+                "end_face": "60",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620519182.7295449
+    }
+]

@@ -38,6 +38,7 @@ class SearchBeam(Search):
         while used_budget < budget:
             # We begin each rollout an empty graph
             # cur_graph = self.env.get_empty_graph()
+            self.env.revert_to_target()
             cur_graph = self.env.get_bounding_graph(min_point, max_point)
             # the beam datastructure, for each time_step, holds a list,
             # representing the top_beam_width number of (prefix, logpr(prefix))
@@ -68,8 +69,12 @@ class SearchBeam(Search):
                 # the candidate for the next time-step in the beam
                 new_beam_candidates = []
                 for prefix, prefix_logpr in last_beam_head:
+                    # print("here")
                     # execute the prefix, and since we took an envstep, add 1 to budget (make extrudes able to handle empty enumerables)
-                    new_graph, cur_iou = self.env.extrudes(list(prefix), revert=True)
+                    self.env.revert_to_target()
+                    cur_graph = self.env.get_bounding_graph(min_point, max_point)
+                    new_graph, cur_iou = self.env.extrudes(list(prefix), revert=False)
+
                     # Only increment the budget when we did work
                     if len(prefix) > 0:
                         used_budget += 1
@@ -109,7 +114,7 @@ class SearchBeam(Search):
                     # extend the current prefix by 1 step forward
                     actions, action_probabilities = agent.get_actions_probabilities(cur_graph, self.target_graph)
                     # Filter for clearly bad actions
-                    action_probabilities = self.filter_bad_actions(cur_graph, actions, action_probabilities, from_bound=True, first_cut=False)
+                    action_probabilities = self.filter_bad_actions(cur_graph, actions, action_probabilities, from_bound=True, first_cut=True)
                     # first_pass = False
                     # Convert probability to logpr so they can be added rather than multiplied for numerical stability
                     action_logprs = np.log(action_probabilities)
@@ -129,8 +134,11 @@ class SearchBeam(Search):
                 if len(new_beam_head) == 0:
                     # print("All prefixed are not good, restarting")
                     break
-                print(f"[{used_budget}/{budget}] Score: {max_score}")
+                # print(f"[{used_budget}/{budget}] Score: {max_score}")
                 beam.append(new_beam_head)
+
+                self.env.revert_to_target()
+                cur_graph = self.env.get_bounding_graph(min_point, max_point)
 
             # if we did not solve with the current beam width, multiply width by 2
             beam_width = beam_width * 2
@@ -138,6 +146,7 @@ class SearchBeam(Search):
 
             # Revert to the target and remove all reconstruction
             self.env.revert_to_target()
+            cur_graph = self.env.get_bounding_graph(min_point, max_point)
             rollout_attempt += 1
         return max_scores
 
@@ -255,7 +264,7 @@ class SearchBeam(Search):
                 if len(new_beam_head) == 0:
                     # print("All prefixed are not good, restarting")
                     break
-                print(f"[{used_budget}/{budget}] Score: {max_score}")
+                # print(f"[{used_budget}/{budget}] Score: {max_score}")
                 beam.append(new_beam_head)
 
             # if we did not solve with the current beam width, multiply width by 2

@@ -28,17 +28,14 @@ class SearchBest(Search):
             # There exist some designs with no planar faces that we can't handle
             # We need at least 2 faces
             raise Exception("Not enough valid planar faces in target")
-        elif rollout_length > 2:
-            rollout_length = math.ceil(rollout_length / 2)
+        # elif rollout_length > 2:
+            # rollout_length = math.ceil(rollout_length / 2)
+        print(rollout_length)
 
         used_budget = 0
         max_score = 0
         max_scores = []
 
-        # We begin each rollout an empty graph
-
-        cur_graph = self.env.get_bounding_graph(min_point, max_point)
-        # print(cur_graph)
         # like beam search, we keep track of prefixes, but instead of a beam we keep a "fringe"
         # we implement this with a priority queue, the queue ordered by min first max last
         # so we'll use _negative_ log likelihood and go after the "smallest" nll instead of the max like we do in beam
@@ -49,13 +46,14 @@ class SearchBest(Search):
         fringe.put(PriorityAction(0, ()))
 
         # while there is item in the fridge and we still have budget
-        first_pass=True
         while fringe.qsize() > 0 and used_budget < budget:
+            # Revert environment to target and set current graph to bounding box
+            self.env.revert_to_target()
+            cur_graph = self.env.get_bounding_graph(min_point, max_point)
             priority_action = fringe.get()
             # nll is something like 10, prefix is something like (a1, a4, a10)
             nll = priority_action.nll
             prefix = priority_action.prefix
-            # self.env.get_bounding_graph(min_point, max_point)
             new_graph, cur_iou = self.env.extrudes(list(prefix), revert=False)
             if len(prefix) > 0:
                 used_budget += 1
@@ -92,12 +90,9 @@ class SearchBest(Search):
                 continue
 
             # extend the current prefix by 1 step forward
-            # print(cur_graph)
             actions, action_probabilities = agent.get_actions_probabilities(cur_graph, self.target_graph)
-            # pprint(list(zip(actions, action_probabilities)))
             # Filter for clearly bad actions
-            action_probabilities = self.filter_bad_actions(cur_graph, actions, action_probabilities, from_bound=True, first_cut=first_pass)
-            first_pass = False
+            action_probabilities = self.filter_bad_actions_bounded(cur_graph, actions, action_probabilities)
             # Convert probability to logpr so they can be added rather than multiplied for numerical stability
             action_logprs = np.log(action_probabilities)
             # add to the candidates back to fringe
@@ -122,8 +117,9 @@ class SearchBest(Search):
             # There exist some designs with no planar faces that we can't handle
             # We need at least 2 faces
             raise Exception("Not enough valid planar faces in target")
-        elif rollout_length > 2:
-            rollout_length = math.ceil(rollout_length / 2)
+        # elif rollout_length > 2:
+            # rollout_length = math.ceil(rollout_length / 2)
+        print(rollout_length)
 
         used_budget = 0
         max_score = 0
@@ -143,11 +139,15 @@ class SearchBest(Search):
         # while there is item in the fridge and we still have budget
         while fringe.qsize() > 0 and used_budget < budget:
             priority_action = fringe.get()
+            # secondary_action = fringe.get()
+            # if np.random.random() > 0.8:
+            #     priority_action = secondary_action
+            # secondary_action = fringe.get()
             # nll is something like 10, prefix is something like (a1, a4, a10)
             nll = priority_action.nll
             prefix = priority_action.prefix
             new_graph, cur_iou = self.env.extrudes(list(prefix), revert=True)
-            print(list(prefix))
+            # print(list(prefix))
             if len(prefix) > 0:
                 used_budget += 1
                 take_screenshot = screenshot

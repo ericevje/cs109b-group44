@@ -220,6 +220,7 @@ def get_union_volume(bodies, copy=True):
 
 
 def get_intersect_volume(bodies_one, bodies_two):
+    print("here")
     """Get the intersection volume of two lists of bodies"""
     if len(bodies_one) == 0 or len(bodies_two) == 0:
         return 0.0
@@ -249,7 +250,13 @@ def get_intersect_volume(bodies_one, bodies_two):
     intersection_bodies = []
     for result in results:
         group_one = bodies_group[result.entityOne.revisionId]
+        print("#"*80)
+        print(group_one)
+        print("#"*80)
         group_two = bodies_group[result.entityTwo.revisionId]
+        print("#"*80)
+        print(group_two)
+        print("#"*80)
         # Make sure the intersection comes from between the groups
         if group_one != group_two:
             intersection_bodies.append(result.interferenceBody)
