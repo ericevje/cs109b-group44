@@ -19,6 +19,9 @@ class SearchBest(Search):
     def __init__(self, env, log_dir=None):
         super().__init__(env, log_dir)
 
+    # def get_intersect_cut(self, target):
+        
+
     def search_bounding_box(self, agent, budget, max_point, min_point, score_function=None, screenshot=False):
         super().search_bounding_box(agent, budget, max_point, min_point, score_function, screenshot)
         # the length of rollout is the same as the number of planar faces as a maximum
@@ -52,6 +55,7 @@ class SearchBest(Search):
             # Revert environment to target and set current graph to bounding box
             self.env.revert_to_target()
             cur_graph = self.env.get_bounding_graph(min_point, max_point)
+            print(cur_graph.keys())
             priority_action = fringe.get()
             # nll is something like 10, prefix is something like (a1, a4, a10)
             nll = priority_action.nll
