@@ -27,7 +27,7 @@ parser.add_argument("--launch_gym", dest="launch_gym", default=False, action="st
                     help="Launch the Fusion 360 Gym automatically, requires the gym to be set to run on startup [default: False]")
 parser.add_argument("--agent", type=str, default="rand", help="Agent to use, can be rand, mpn, or mlp [default: rand]")
 parser.add_argument("--search", type=str, default="rand", help="Search to use, can be rand, beam or best [default: rand]")
-parser.add_argument("--budget", type=int, default=50, help="The number of steps to search [default: 100]")
+parser.add_argument("--budget", type=int, default=20, help="The number of steps to search [default: 100]")
 parser.add_argument("--augment", dest="augment", default=False, action="store_true", help="Use an agent trained on augmented data [default: False]")
 parser.add_argument("--rerun", dest='rerun', default=True)
 parser.add_argument("--bounded", dest='bounded', default=False)

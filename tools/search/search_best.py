@@ -8,6 +8,8 @@ import numpy as np
 from queue import PriorityQueue
 from pprint import pprint
 
+sys.path.append('/Users/ericevje/gitrepos/cs109b-group44/tools/')
+import common.geometry as geo
 
 from search import Search
 

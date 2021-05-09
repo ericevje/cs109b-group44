@@ -11,7 +11,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519012.499166
+        "time": 1620591670.2490351
     },
     {
         "used_budget": 2,
@@ -25,7 +25,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519013.5784519
+        "time": 1620591671.2825348
     },
     {
         "used_budget": 3,
@@ -39,7 +39,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519014.812675
+        "time": 1620591672.263139
     },
     {
         "used_budget": 4,
@@ -53,7 +53,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519015.865273
+        "time": 1620591673.163727
     },
     {
         "used_budget": 5,
@@ -67,7 +67,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519016.933156
+        "time": 1620591674.097284
     },
     {
         "used_budget": 6,
@@ -81,7 +81,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519018.044291
+        "time": 1620591675.017962
     },
     {
         "used_budget": 7,
@@ -95,7 +95,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519019.077386
+        "time": 1620591675.934721
     },
     {
         "used_budget": 8,
@@ -109,7 +109,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519020.1328351
+        "time": 1620591676.90141
     },
     {
         "used_budget": 9,
@@ -123,7 +123,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519021.21057
+        "time": 1620591677.851799
     },
     {
         "used_budget": 10,
@@ -137,7 +137,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519022.244451
+        "time": 1620591678.8014998
     },
     {
         "used_budget": 11,
@@ -151,7 +151,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519023.264949
+        "time": 1620591679.794976
     },
     {
         "used_budget": 12,
@@ -165,7 +165,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519024.3118799
+        "time": 1620591680.763056
     },
     {
         "used_budget": 13,
@@ -179,7 +179,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519025.3313248
+        "time": 1620591681.711431
     },
     {
         "used_budget": 14,
@@ -193,7 +193,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519026.364032
+        "time": 1620591682.863231
     },
     {
         "used_budget": 15,
@@ -207,7 +207,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519027.403358
+        "time": 1620591684.0623019
     },
     {
         "used_budget": 16,
@@ -221,7 +221,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519028.462924
+        "time": 1620591685.031276
     },
     {
         "used_budget": 17,
@@ -235,7 +235,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519029.530459
+        "time": 1620591685.965318
     },
     {
         "used_budget": 18,
@@ -249,7 +249,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519030.596988
+        "time": 1620591687.049414
     },
     {
         "used_budget": 19,
@@ -263,7 +263,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519031.696586
+        "time": 1620591688.115846
     },
     {
         "used_budget": 20,
@@ -277,6 +277,6 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519032.762589
+        "time": 1620591689.065582
     }
 ]
