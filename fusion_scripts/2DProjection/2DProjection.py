@@ -1,4 +1,4 @@
-#Author- Eagon
+#Author
 #Description- 2D Projection to solve impossible geometries based on parallel faces only
 
 import adsk.core, adsk.fusion, adsk.cam, traceback
