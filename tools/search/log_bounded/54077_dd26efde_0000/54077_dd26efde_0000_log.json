@@ -12,7 +12,7 @@
             }
         ],
         "screenshot": "Screenshot_0001.png",
-        "time": 1620519152.125579
+        "time": 1620604956.5544739
     },
     {
         "used_budget": 2,
@@ -27,7 +27,7 @@
             }
         ],
         "screenshot": "Screenshot_0002.png",
-        "time": 1620519154.269523
+        "time": 1620604958.7253492
     },
     {
         "used_budget": 3,
@@ -41,7 +41,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519155.6905909
+        "time": 1620604959.950339
     },
     {
         "used_budget": 4,
@@ -55,7 +55,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519156.964244
+        "time": 1620604961.046793
     },
     {
         "used_budget": 5,
@@ -69,7 +69,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519158.36547
+        "time": 1620604962.2885828
     },
     {
         "used_budget": 6,
@@ -84,7 +84,7 @@
             }
         ],
         "screenshot": "Screenshot_0006.png",
-        "time": 1620519160.321773
+        "time": 1620604964.610832
     },
     {
         "used_budget": 7,
@@ -104,7 +104,7 @@
             }
         ],
         "screenshot": "Screenshot_0007.png",
-        "time": 1620519162.766434
+        "time": 1620604966.6519969
     },
     {
         "used_budget": 8,
@@ -124,7 +124,7 @@
             }
         ],
         "screenshot": "Screenshot_0008.png",
-        "time": 1620519164.956484
+        "time": 1620604968.7300842
     },
     {
         "used_budget": 9,
@@ -139,7 +139,7 @@
             }
         ],
         "screenshot": "Screenshot_0009.png",
-        "time": 1620519167.023582
+        "time": 1620604970.6956081
     },
     {
         "used_budget": 10,
@@ -159,7 +159,7 @@
             }
         ],
         "screenshot": "Screenshot_0010.png",
-        "time": 1620519169.2354748
+        "time": 1620604972.777157
     },
     {
         "used_budget": 11,
@@ -179,7 +179,7 @@
             }
         ],
         "screenshot": "Screenshot_0011.png",
-        "time": 1620519171.402425
+        "time": 1620604975.15408
     },
     {
         "used_budget": 12,
@@ -198,7 +198,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519172.7705102
+        "time": 1620604976.499518
     },
     {
         "used_budget": 13,
@@ -217,7 +217,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519173.9531178
+        "time": 1620604977.628862
     },
     {
         "used_budget": 14,
@@ -236,7 +236,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519175.215909
+        "time": 1620604978.872353
     },
     {
         "used_budget": 15,
@@ -255,7 +255,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519176.401547
+        "time": 1620604980.052097
     },
     {
         "used_budget": 16,
@@ -274,7 +274,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519177.7164228
+        "time": 1620604981.350164
     },
     {
         "used_budget": 17,
@@ -293,7 +293,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519179.1205041
+        "time": 1620604982.709942
     },
     {
         "used_budget": 18,
@@ -307,7 +307,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519180.2968729
+        "time": 1620604983.861693
     },
     {
         "used_budget": 19,
@@ -326,7 +326,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519181.526696
+        "time": 1620604985.024588
     },
     {
         "used_budget": 20,
@@ -345,6 +345,6 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519182.7295449
+        "time": 1620604986.310006
     }
 ]

@@ -11,7 +11,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620599409.916726
+        "time": 1620604929.7163122
     },
     {
         "used_budget": 2,
@@ -25,7 +25,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620599410.8489559
+        "time": 1620604930.7833788
     },
     {
         "used_budget": 3,
@@ -39,7 +39,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620599411.781568
+        "time": 1620604931.862844
     },
     {
         "used_budget": 4,
@@ -53,7 +53,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620599412.764752
+        "time": 1620604932.916165
     },
     {
         "used_budget": 5,
@@ -67,7 +67,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620599413.748211
+        "time": 1620604933.996245
     },
     {
         "used_budget": 6,
@@ -81,7 +81,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620599414.709252
+        "time": 1620604935.063639
     },
     {
         "used_budget": 7,
@@ -95,6 +95,191 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620599415.7243588
+        "time": 1620604936.1473851
+    },
+    {
+        "used_budget": 8,
+        "budget": 20,
+        "current_iou": 0.42671658944199164,
+        "max_iou": 0.42671658944199164,
+        "prefix": [
+            {
+                "start_face": "41",
+                "end_face": "37",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0008.png",
+        "time": 1620604938.0464032
+    },
+    {
+        "used_budget": 9,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.42671658944199164,
+        "prefix": [
+            {
+                "start_face": "13",
+                "end_face": "13",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620604939.18155
+    },
+    {
+        "used_budget": 10,
+        "budget": 20,
+        "current_iou": 0.6798886618910708,
+        "max_iou": 0.6798886618910708,
+        "prefix": [
+            {
+                "start_face": "37",
+                "end_face": "39",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0010.png",
+        "time": 1620604941.098531
+    },
+    {
+        "used_budget": 11,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.6798886618910708,
+        "prefix": [
+            {
+                "start_face": "43",
+                "end_face": "41",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620604942.3044
+    },
+    {
+        "used_budget": 12,
+        "budget": 20,
+        "current_iou": 0.7037559354410343,
+        "max_iou": 0.7037559354410343,
+        "prefix": [
+            {
+                "start_face": "41",
+                "end_face": "43",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "screenshot": "Screenshot_0012.png",
+        "time": 1620604944.1007261
+    },
+    {
+        "used_budget": 13,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.7037559354410343,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "26",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620604945.21403
+    },
+    {
+        "used_budget": 14,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.7037559354410343,
+        "prefix": [
+            {
+                "start_face": "23",
+                "end_face": "39",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620604946.2278268
+    },
+    {
+        "used_budget": 15,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.7037559354410343,
+        "prefix": [
+            {
+                "start_face": "17",
+                "end_face": "40",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620604947.262381
+    },
+    {
+        "used_budget": 16,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.7037559354410343,
+        "prefix": [
+            {
+                "start_face": "17",
+                "end_face": "32",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620604948.3290188
+    },
+    {
+        "used_budget": 17,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.7037559354410343,
+        "prefix": [
+            {
+                "start_face": "26",
+                "end_face": "40",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620604949.395884
+    },
+    {
+        "used_budget": 18,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.7037559354410343,
+        "prefix": [
+            {
+                "start_face": "14",
+                "end_face": "32",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620604950.4952362
+    },
+    {
+        "used_budget": 19,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.7037559354410343,
+        "prefix": [
+            {
+                "start_face": "23",
+                "end_face": "40",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620604951.547401
+    },
+    {
+        "used_budget": 20,
+        "budget": 20,
+        "current_iou": null,
+        "max_iou": 0.7037559354410343,
+        "prefix": [
+            {
+                "start_face": "29",
+                "end_face": "32",
+                "operation": "CutFeatureOperation"
+            }
+        ],
+        "time": 1620604952.6140878
     }
 ]

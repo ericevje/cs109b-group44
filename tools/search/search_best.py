@@ -33,34 +33,31 @@ class SearchBest(Search):
             # There exist some designs with no planar faces that we can't handle
             # We need at least 2 faces
             raise Exception("Not enough valid planar faces in target")
-        # elif rollout_length > 2:
-            # rollout_length = math.ceil(rollout_length / 2)
-        print(rollout_length)
 
         used_budget = 0
         max_score = 0
         max_scores = []
 
-        # like beam search, we keep track of prefixes, but instead of a beam we keep a "fringe"
-        # we implement this with a priority queue, the queue ordered by min first max last
-        # so we'll use _negative_ log likelihood and go after the "smallest" nll instead of the max like we do in beam
-        # each entry in the fringe is a custom PriorityAction (neg_likelihood, (prefix))
-        # where prefix is a tuple that contains the actions, that are dicts
-        # for example an element of the queue is something like : (10, (a1, a4, a10))
         fringe = PriorityQueue()
         fringe.put(PriorityAction(0, ()))
 
         # while there is item in the fridge and we still have budget
         while fringe.qsize() > 0 and used_budget < budget:
             # Revert environment to target and set current graph to bounding box
+
+            ###################################################################
+            # Instead of starting with a blank graph and adding, we start with
+            # a bounding box and subtract from it
             self.env.revert_to_target()
             cur_graph = self.env.get_bounding_graph(min_point, max_point)
-            print(cur_graph.keys())
+            ###################################################################
+
             priority_action = fringe.get()
             # nll is something like 10, prefix is something like (a1, a4, a10)
             nll = priority_action.nll
             prefix = priority_action.prefix
             new_graph, cur_iou = self.env.extrudes(list(prefix), revert=False)
+
             if len(prefix) > 0:
                 used_budget += 1
                 take_screenshot = screenshot
