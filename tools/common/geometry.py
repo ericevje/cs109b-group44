@@ -131,7 +131,7 @@ def get_vertex_count(entity):
 
 
 def intersection_over_union(component_one, component_two):
-    print("here here here ")
+    # print("here here here ")
     """Calculate the intersection over union between two components"""
     all_bodies = []
     all_bodies.extend(component_one.bRepBodies)
@@ -152,7 +152,7 @@ def intersection_over_union(component_one, component_two):
 
 def get_union_volume(bodies, copy=True):
     """Get the unioned volume of a set of bodies"""
-    print("here here")
+    # print("here here")
     num_bodies = len(bodies)
     if num_bodies == 0:
         return 0.0
@@ -222,7 +222,7 @@ def get_union_volume(bodies, copy=True):
 
 
 def get_intersect_volume(bodies_one, bodies_two):
-    print("here")
+    # print("here")
     """Get the intersection volume of two lists of bodies"""
     if len(bodies_one) == 0 or len(bodies_two) == 0:
         return 0.0

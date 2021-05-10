@@ -12,7 +12,7 @@
             }
         ],
         "screenshot": "Screenshot_0001.png",
-        "time": 1620519036.782728
+        "time": 1620604837.874115
     },
     {
         "used_budget": 2,
@@ -32,7 +32,7 @@
             }
         ],
         "screenshot": "Screenshot_0002.png",
-        "time": 1620519038.7470348
+        "time": 1620604839.8098161
     },
     {
         "used_budget": 3,
@@ -57,7 +57,7 @@
             }
         ],
         "screenshot": "Screenshot_0003.png",
-        "time": 1620519040.746739
+        "time": 1620604841.709598
     },
     {
         "used_budget": 4,
@@ -87,7 +87,7 @@
             }
         ],
         "screenshot": "Screenshot_0004.png",
-        "time": 1620519042.946882
+        "time": 1620604843.696484
     },
     {
         "used_budget": 5,
@@ -122,7 +122,7 @@
             }
         ],
         "screenshot": "Screenshot_0005.png",
-        "time": 1620519045.014389
+        "time": 1620604846.695214
     },
     {
         "used_budget": 6,
@@ -162,7 +162,7 @@
             }
         ],
         "screenshot": "Screenshot_0006.png",
-        "time": 1620519047.145971
+        "time": 1620604849.059129
     },
     {
         "used_budget": 7,
@@ -207,7 +207,7 @@
             }
         ],
         "screenshot": "Screenshot_0007.png",
-        "time": 1620519049.269407
+        "time": 1620604851.491564
     },
     {
         "used_budget": 8,
@@ -257,7 +257,7 @@
             }
         ],
         "screenshot": "Screenshot_0008.png",
-        "time": 1620519051.3799942
+        "time": 1620604854.013165
     },
     {
         "used_budget": 9,
@@ -271,7 +271,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519052.532685
+        "time": 1620604855.744261
     },
     {
         "used_budget": 10,
@@ -285,7 +285,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519053.607758
+        "time": 1620604857.070134
     },
     {
         "used_budget": 11,
@@ -304,7 +304,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519054.694251
+        "time": 1620604858.856367
     },
     {
         "used_budget": 12,
@@ -328,7 +328,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519055.828222
+        "time": 1620604861.106646
     },
     {
         "used_budget": 13,
@@ -357,7 +357,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519056.9942248
+        "time": 1620604863.330175
     },
     {
         "used_budget": 14,
@@ -391,7 +391,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519058.228537
+        "time": 1620604865.7129228
     },
     {
         "used_budget": 15,
@@ -430,7 +430,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519059.427428
+        "time": 1620604867.4264362
     },
     {
         "used_budget": 16,
@@ -474,7 +474,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519060.6959639
+        "time": 1620604869.122738
     },
     {
         "used_budget": 17,
@@ -523,7 +523,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519062.0267708
+        "time": 1620604870.410655
     },
     {
         "used_budget": 18,
@@ -537,7 +537,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519063.1063628
+        "time": 1620604871.454019
     },
     {
         "used_budget": 19,
@@ -556,7 +556,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519064.270966
+        "time": 1620604872.722641
     },
     {
         "used_budget": 20,
@@ -580,6 +580,6 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519065.44012
+        "time": 1620604873.956715
     }
 ]

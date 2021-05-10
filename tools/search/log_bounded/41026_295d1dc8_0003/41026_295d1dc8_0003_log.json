@@ -12,7 +12,7 @@
             }
         ],
         "screenshot": "Screenshot_0001.png",
-        "time": 1620519213.6825652
+        "time": 1620605017.192559
     },
     {
         "used_budget": 2,
@@ -27,7 +27,7 @@
             }
         ],
         "screenshot": "Screenshot_0002.png",
-        "time": 1620519215.5938728
+        "time": 1620605018.9927292
     },
     {
         "used_budget": 3,
@@ -42,7 +42,7 @@
             }
         ],
         "screenshot": "Screenshot_0003.png",
-        "time": 1620519217.4595242
+        "time": 1620605020.790559
     },
     {
         "used_budget": 4,
@@ -57,7 +57,7 @@
             }
         ],
         "screenshot": "Screenshot_0004.png",
-        "time": 1620519219.2271712
+        "time": 1620605022.589809
     },
     {
         "used_budget": 5,
@@ -72,7 +72,7 @@
             }
         ],
         "screenshot": "Screenshot_0005.png",
-        "time": 1620519221.0257149
+        "time": 1620605024.342186
     },
     {
         "used_budget": 6,
@@ -86,7 +86,7 @@
                 "operation": "CutFeatureOperation"
             }
         ],
-        "time": 1620519222.09148
+        "time": 1620605025.3090072
     },
     {
         "used_budget": 7,
@@ -106,7 +106,7 @@
             }
         ],
         "screenshot": "Screenshot_0007.png",
-        "time": 1620519223.960114
+        "time": 1620605027.59026
     },
     {
         "used_budget": 8,
@@ -126,7 +126,7 @@
             }
         ],
         "screenshot": "Screenshot_0008.png",
-        "time": 1620519225.961766
+        "time": 1620605029.442267
     },
     {
         "used_budget": 9,
@@ -146,7 +146,7 @@
             }
         ],
         "screenshot": "Screenshot_0009.png",
-        "time": 1620519227.858708
+        "time": 1620605031.308775
     },
     {
         "used_budget": 10,
@@ -166,7 +166,7 @@
             }
         ],
         "screenshot": "Screenshot_0010.png",
-        "time": 1620519229.859116
+        "time": 1620605033.222386
     },
     {
         "used_budget": 11,
@@ -186,7 +186,7 @@
             }
         ],
         "screenshot": "Screenshot_0011.png",
-        "time": 1620519231.815983
+        "time": 1620605035.0897129
     },
     {
         "used_budget": 12,
@@ -206,7 +206,7 @@
             }
         ],
         "screenshot": "Screenshot_0012.png",
-        "time": 1620519233.793785
+        "time": 1620605037.022038
     },
     {
         "used_budget": 13,
@@ -226,7 +226,7 @@
             }
         ],
         "screenshot": "Screenshot_0013.png",
-        "time": 1620519235.705525
+        "time": 1620605038.9689221
     },
     {
         "used_budget": 14,
@@ -246,7 +246,7 @@
             }
         ],
         "screenshot": "Screenshot_0014.png",
-        "time": 1620519238.9456372
+        "time": 1620605040.888549
     },
     {
         "used_budget": 15,
@@ -266,7 +266,7 @@
             }
         ],
         "screenshot": "Screenshot_0015.png",
-        "time": 1620519240.857889
+        "time": 1620605042.807138
     },
     {
         "used_budget": 16,
@@ -286,7 +286,7 @@
             }
         ],
         "screenshot": "Screenshot_0016.png",
-        "time": 1620519243.177912
+        "time": 1620605044.67838
     },
     {
         "used_budget": 17,
@@ -306,7 +306,7 @@
             }
         ],
         "screenshot": "Screenshot_0017.png",
-        "time": 1620519245.5131662
+        "time": 1620605046.740685
     },
     {
         "used_budget": 18,
@@ -326,7 +326,7 @@
             }
         ],
         "screenshot": "Screenshot_0018.png",
-        "time": 1620519247.989814
+        "time": 1620605048.623439
     },
     {
         "used_budget": 19,
@@ -346,7 +346,7 @@
             }
         ],
         "screenshot": "Screenshot_0019.png",
-        "time": 1620519249.947258
+        "time": 1620605050.587585
     },
     {
         "used_budget": 20,
@@ -366,6 +366,6 @@
             }
         ],
         "screenshot": "Screenshot_0020.png",
-        "time": 1620519252.044672
+        "time": 1620605052.4203389
     }
 ]
